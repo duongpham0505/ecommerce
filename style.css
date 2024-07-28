@@ -1,0 +1,245 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+ul, li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+} 
+a {
+    text-decoration: none;
+}
+
+.header-top {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0,168,89);
+}
+
+.cart {
+    width: 150px;
+    height: 30px;
+    background-color: rgb(255,108,1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.cart a {
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+    display: block;
+    line-height: 7px;
+}
+
+.menu-top {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0,168,89);
+}
+
+.menu-top ul {
+    line-height: 51px;
+}
+
+.menu-top li {
+    width: 100px;
+    text-align: center;
+    display: block;
+}
+
+.menu-top ul li a {
+    width: 100px;
+    text-align: center;
+    color: #fff;
+    display: block;
+}
+
+.menu-top ul li a:hover {
+    background-color: rgb(255,108,1);
+}
+
+
+.menu-top .search {
+    padding-top: 9px;
+}
+
+.menu-top .search input {
+    width: 100%;
+    padding: 4px 4px 4px 14px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.menu-top .search input:focus {
+    outline: none;
+}
+
+.menu-top .search button {
+    position: absolute;
+    right: 7px;
+    top: 11px;
+    border: none;
+    background-color: #fff;
+}
+
+/* banner & menu*/
+.menu-banner {
+    margin-top: 30px;
+}
+
+.menu-banner ul {
+    border: 1px #EBEBEB solid;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.menu-banner ul h4 {
+    width: 100%;
+    background-color: rgb(0,168,89);
+    padding: 9px 0px 9px 20px;
+    border-radius: 10px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.menu-banner a {
+    display: block;
+}
+
+.menu-banner a:hover {
+    color: rgb(0,168,89);
+}
+
+.menu-banner ul li {
+    padding: 10px 10px 10px 18px;
+}
+
+.menu-banner ul li a {
+    color: #363636;
+    display: block !important;
+}
+
+.menu-banner ul li a span {
+    padding-left: 20px;
+    color: #363636;
+    text-transform: uppercase;
+}
+
+.menu-banner .border-menu {
+    border-bottom: 1px solid #EBEBEB;
+}
+
+/*  main product  */
+.main-product {
+    min-height: 500px;
+    margin-top: 30px;
+}
+
+.product-new h2 {
+    width: 250px;
+    height: 50px;
+    background-color: #00a859;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 50px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.main-product .product {
+    margin-bottom: 20px;
+}
+
+.main-product .product .detail {
+    width: 23%;
+    border: 1px #EBEBEB solid;
+    box-shadow: 0px 0px 9px 0px rgb(42 22 139 / 12%);
+    border-radius: 10px;
+}
+
+.main-product .product .detail:hover {
+    background-color: aliceblue;
+    border-bottom: 1px solid #00a859;
+}
+
+.butom-product {
+    padding-bottom: 15px;
+    margin-top: 10px;
+}
+
+.butom-product a {
+    width: 100px;
+    color: #00a859;
+    border: 1px solid #00a859;
+    padding: 7px 10px;
+}
+
+/*  tin tức */
+.border-news {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 100px;
+
+}
+
+.border-news h2 {
+    position: absolute;
+    top: -28px;
+    width: 168px;
+    height: 52px;
+    text-align: center;
+    background: #00a859;
+    border-radius: 20px;
+    padding-top: 4px;
+    color: aliceblue;
+}
+
+.border-new-bottom {
+    border-top: 3px solid #00a859; 
+    width: 100%;
+    padding-top: 57px;
+}
+
+/*  footter  */
+.footter {
+    height: 250px;
+    background-color: rgb(0,168,89);
+    padding: 25px 0px 20px 25px;
+}
+
+.footter span {
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+.footter ul li {
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.facebook-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #1877F2;
+    font-size: 20px;
+}
+
+.facebook-link .fab {
+    margin-right: 8px;
+    font-size: 24px;
+}

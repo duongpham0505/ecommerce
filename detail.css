@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-product .main-product-img {
+    width: 100%;
+    border: 1px solid #EBEBEB;
+    transition-duration: 0.3s;
+}
+
+.main-product .zoom-img:hover {
+    transform: scale(1.2);
+    border: none;
+}
+
+.main-product .related-photos {
+    margin: 10px 0px 0px 0px;
+}
+
+.main-product .related-photos img {
+    border: 1px solid #EBEBEB;
+}
+
+.circle {
+    background: #00a859;
+    border: 0.1875em solid #fff;
+    border-radius: 50%;
+    height: 3em;
+    width: 3em;
+    position: relative;
+    top: -336px;
+    left: 15px;
+}
+
+.circle span {
+    position: absolute;
+    left: 7px;
+    top: 7px;
+    color: #fff;
+}
+
+/* chi tiet */
+.detail-description p {
+    font-size: 14px;
+    color: #363636;
+    line-height: 1.7;
+    letter-spacing: 0.25px;
+    padding-bottom: 10px;
+}
+
+.logo-mxh {
+    padding-top: 20px;
+}
